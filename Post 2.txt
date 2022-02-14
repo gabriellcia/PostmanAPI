@@ -1,0 +1,30 @@
+POST 2
+http://139.99.60.117:8087/casaxcb-rest/overbooking/trx-overbook-batch
+{
+   "request":{
+      "overbooking":[
+         {
+            "accountFrom":"",
+            "currencyFrom":"IDR",
+            "accountTo":"360000065903",
+            "currencyTo":"IDR",
+            "amount":2000,
+            "description":"Top Up 20000",
+            "trxCode":"2030",
+            "username":"",
+            "dataSource":""
+         }
+      ]
+   }
+}
+
+JSON :
+{
+    "responseCode": "00",
+    "response": {
+        "errorCode": "1000",
+        "errorMessage": "Process successful.",
+        "transactionReference": "202202600000000022",
+        "batchnumber": 20220260000018
+    }
+}

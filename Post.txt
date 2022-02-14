@@ -1,0 +1,51 @@
+POST 1 
+http://139.99.60.117:8087/casaxcb-rest/account-opening/create-account-cif-mandatory
+{
+   "request":{
+      "cifValidationDto":{
+         "idCif":"",
+         "companyCode":"10002",
+         "productCode":"Merchant",
+         "name":"Gabriella Alicia",
+         "fullName":"Gabriella Alicia ",
+         "gender":"2",
+         "birthPlace":"-",
+         "birthDate":"2001-05-21",
+         "identityNumber":"",
+         "identityType":"",
+         "motherMaidenName":"",
+         "callName":"Cia",
+         "phone":"085713778397",
+         "phoneType":"2",
+         "email":"zwrhibK@test.com",
+         "maritalStatus":"Single",
+         "street1":"",
+         "street2":"",
+         "city":"",
+         "province":"",
+         "country":"",
+         "postalCode":"",
+         "lastEducation":"1",
+         "taxFlag":"0",
+         "isResidence":"1",
+         "idValidDate":"2099-01-01",
+         "printedName":"Gabriella Alicia",
+         "representativeName":"Gabriella Alicia",
+         "accountNumber":"",
+         "purposeOfAccountOpening":"Savings",
+         "addressType":"2"
+      },
+      "currency":"IDR"
+   }
+}
+
+JSON :
+{
+    "responseCode": "00",
+    "response": {
+        "errorCode": "1000",
+        "errorMessage": "Process successful.",
+        "cifNumber": "00031773",
+        "accountNumber": "360000066095"
+    }
+}
